@@ -1,6 +1,6 @@
 # SMS Expense Tracker AI Agent 💰
 
-An SMS-based conversational AI expense tracker that feels like texting a brutally honest friend who actually cares about your finances. Track expenses, manage budgets, and get roasted (or hyped) based on your spending habits—all via text message.
+An SMS-based conversational AI expense tracker that feels like texting a brutally honest friend who actually cares about your finances. Track expenses, manage budgets, and get roasted (or hyped) based on your spending habits, all via text message.
 
 ## ✨ Features
 
@@ -152,11 +152,11 @@ Bot: you dropped $94 on coffee this month. that's a lot of caffeine 💀
 
 ### Debt Tracking
 ```
-You: i owe ishaan $5
-Bot: alright, you owe ishaan $5. i'll keep track of that 👍
+You: i owe X $5
+Bot: alright, you owe X $5. i'll keep track of that 👍
 
-You: how much do i owe ishaan?
-Bot: you owe ishaan $5.00
+You: how much do i owe X?
+Bot: you owe X $5.00
 ```
 
 ## 📁 Project Structure
