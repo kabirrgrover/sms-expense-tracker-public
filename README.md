@@ -1,254 +1,218 @@
-# SMS Expense Tracker AI Agent 💰
+# Spill - SMS Expense Tracker AI Agent 💸
 
-An SMS-based conversational AI expense tracker that feels like texting a brutally honest friend who actually cares about your finances. Track expenses, manage budgets, and get roasted (or hyped) based on your spending habits, all via text message.
+**Your brutally honest financial bestie, right in your texts.**
 
-## ✨ What Makes This Different
+Track expenses, manage budgets, and get roasted (or hyped) for your spending habits—all through SMS. No app downloads. No forms. Just text.
 
-Unlike traditional expense tracking apps that require you to open an app, fill out forms, and categorize manually, this agent lives in your text messages. Just text what you spent like you're telling a friend, and it handles the rest. It's fast, natural, and actually engaging—you'll want to use it.
+### 👉 [Try Spill Today](https://spill.today)
 
-## 🎯 Core Features
+---
 
-### Natural Language Expense Logging
-Log expenses exactly how you think about them:
+## Why Spill?
+
+Let's be real—expense tracking apps are boring. You download them, use them for two weeks, then forget they exist. 
+
+Spill is different. It lives in your text messages. Just tell it what you spent like you're venting to a unhinged friend, and it handles the rest. It's fast, it's natural, and it actually makes tracking money *fun* (yes, really).
+
+---
+
+## 📋 All Features at a Glance
+
+**Core Tracking**
+- Natural language expense logging (`"lunch $15"`, `"coffee $5.50 starbucks"`)
+- OCR receipt scanning—just snap a photo
+- Undo & edit expenses instantly
+- Bulk operations with confirmation safety
+- Refund tracking
+
+**Budgets & Analytics**
+- Daily, weekly, and monthly budgets
+- Category-specific budgets (`"budget $100 for food"`)
+- Real-time budget alerts
+- Spending predictions (`"at this rate you're hitting $2.5k..."`)
+- Weekly and monthly spending summaries
+- Trend detection and pattern analysis
+
+**Payments & Debts**
+- Venmo/Zelle/Cash App tracking
+- IOU management (`"i owe Messi $20"`)
+- Debt reminders
+- Payment history with contacts
+- Bill splitting (`"split $200 between 4 people"`)
+
+**Personality & Engagement**
+- Savage Mode (default) 💀
+- Supportive Mode
+- Neutral Mode
+- Curse Mode (toggle on/off)
+- Streak tracking with milestone celebrations (Day 5, 10, 30+)
+- Achievement system
+- Inactive user check-ins
+
+**Smart Features**
+- Context-aware responses
+- Time-based reminders
+- Pattern recognition for recurring expenses
+- Spending predictions
+- Spill Wrapped (monthly/annual spending reports)
+
+
+## ✨ Features That Slap
+
+### 💬 Just Text What You Spent
+No rigid formats. No dropdown menus. Just say it.
+
 - `"lunch $15"` → Logged instantly
-- `"coffee $5.50 starbucks"` → Tracks merchant automatically
-- `"uber $22 with tip"` → Extracts the base amount intelligently
-- `"lunch $15, dinner $30"` → Handles multiple expenses in one message
-- `"coffee"` → Asks for amount if you forget
+- `"coffee $5.50 starbucks"` → Tracks the merchant too
+- `"uber $22 with tip"` → Extracts the amount intelligently
+- `"coffee"` → Forgot the price? Spill will ask
 
-The agent understands context, handles typos, and extracts amounts from natural language. No rigid formats required.
+The AI understands context, handles typos, and gets what you mean.
 
-### Smart Expense Management
-- **Undo & Edit**: Made a mistake? Just say `"undo"` or `"change coffee to $6"` and it's fixed instantly
-- **Bulk Operations**: `"delete all coffee expenses this week"` with confirmation for safety
-- **Refunds & Returns**: Track money coming back with `"refund $50"`
-- **Bill Splitting**: `"we spent $200 on dinner, 4 people, split it"` → Calculates per person instantly
-- **Duplicate Detection**: Automatically catches when you log the same expense twice
-- **Amount Parsing**: Handles `"$5"`, `"5 bucks"`, `"five dollars"`, `"$5 with tip"` seamlessly
+---
 
-### OCR Receipt Processing
-Send a photo of your receipt and let the agent do the work:
-- **Automatic Extraction**: Uses advanced OCR technology to read receipts and bills
-- **Item-Level Detail**: Extracts individual items, amounts, and merchants from receipts
-- **Smart Categorization**: Automatically categorizes extracted items (food, drinks, tips)
-- **Multi-Item Logging**: Logs all items from a receipt in one go
-- **No Manual Entry**: Just snap a photo and the agent handles everything
-- **Works with Various Formats**: Restaurant receipts, grocery bills, retail purchases
+### 📸 Snap a Receipt, Done
+Send a photo of your receipt and Spill's OCR extracts everything—items, amounts, merchants. No manual entry needed. It's like magic, but for your wallet.
 
-Example: Send a restaurant receipt photo, and the agent extracts `$15.50 lunch`, `$3.25 coffee`, `$2.00 tip` and logs them all automatically.
+---
 
-### Payment & Debt Tracking
-- **Venmo/Zelle/Cash App**: `"venmo'd Kabir $40 for dinner"` → Tracks who you paid
-- **IOU Management**: `"i owe john $20"` → Automatically tracks debts both ways
-- **Debt Queries**: `"how much do i owe Kabir?"` → Instant answer
-- **Payment History**: See all transactions with specific contacts
-- **Settlement Tracking**: Knows when debts are paid back and cleared
+### 💰 Budgets That Actually Work
+Set daily, weekly, or monthly budgets and Spill keeps you honest.
 
-### Intelligent Budget Management
-- **Flexible Budgets**: Set daily, weekly, or monthly budgets
-- **Category Budgets**: `"budget $100 for food this month"` → Tracks spending per category
-- **Real-Time Alerts**: Get notified when you're approaching or exceeding budgets
-- **Budget Insights**: See exactly where your money is going and how it compares to your limits
-- **Progress Tracking**: Know how much budget you have left at any time
+- `"budget $500 this month"` → Locked in
+- `"budget $100 for food"` → Category-specific tracking
+- Get real-time alerts when you're approaching your limits
+- Spending predictions tell you where you're headed: `"at this rate you're hitting $2.5k this month and your budget is $2k 👀"`
 
-### Powerful Spending Analytics
-- **Time-Based Queries**: `"how much this week?"`, `"coffee spending this month"`, `"what did I buy today?"`
-- **Category Breakdowns**: See spending by category with detailed breakdowns
-- **Trend Detection**: Automatically detects spending patterns and suggests improvements
-- **Smart Insights**: Proactive messages like `"you usually log coffee around this time, did you forget?"`
-- **Weekly Summaries**: Automated weekly spending reports delivered to your phone
-- **Comparison Analytics**: Compare spending across different time periods
+---
 
-### Recurring Expense Detection
-- **Pattern Recognition**: Automatically detects when you log the same expense regularly
-- **Recurring Setup**: `"set coffee as recurring $5 daily"` → Tracks subscriptions and habits
-- **Smart Suggestions**: Suggests setting up recurring expenses based on your patterns
-- **Subscription Tracking**: Keep track of monthly subscriptions and recurring bills
+### 🤝 Split Bills & Track Debts
+Never forget who owes you (or who you owe).
 
-## 🎭 Personality & Engagement
+- `"venmo'd Kabir $40 for dinner"` → Tracked
+- `"i owe Messi $20"` → Logged automatically
+- `"how much do i owe Kabir?"` → Instant answer
+- Split bills with `"$200 dinner, 4 people, split it"`
+- Get debt reminders so nothing slips through the cracks
 
-### Multiple Personality Modes
-Choose how you want to be tracked:
-- **Savage Mode** (Default): Brutally honest but caring. Roasts you for bad spending, celebrates wins
-- **Supportive Mode**: Encouraging and understanding. Gentle guidance
-- **Neutral Mode**: Balanced and factual. Just the numbers
-- **Chaos Mode**: Unpredictable and wild. Keeps things interesting
+---
 
-### Context-Aware Responses
-The agent doesn't just log expenses. It reacts to WHAT you bought:
-- Reacts differently to a $50 dinner vs $50 coffee
-- Calls out patterns: `"this is coffee #12 this week bro… unhinged af ☕💀"`
-- Celebrates wins: `"yo day 5 streak of staying under budget! 🔥"`
-- Provides encouragement when you're doing well
+### 📊 Know Where Your Money Goes
+Ask anything about your spending and get instant answers.
 
-### Engagement Features
-- **Streak Tracking**: Build streaks for staying under budget (Day 1, 5, 10, 30+ milestones)
-- **Achievement System**: Unlock achievements for financial milestones
-- **Easter Eggs**: Hidden messages and callouts for special situations
-- **Inactive Check-Ins**: Friendly messages if you haven't logged in a while
-- **Personalized Responses**: Uses your name and adapts to your spending personality
+- `"how much this week?"` → Full breakdown
+- `"coffee spending this month"` → Category deep-dive
+- `"what did I buy today?"` → Quick recap
+- Trend detection tells you when patterns emerge
 
-## 🤖 Agentic Workflow
+---
 
-This isn't just a chatbot. It's an intelligent agent that works proactively:
+### 🎭 Pick Your Vibe
+Choose how Spill talks to you:
 
-- **Autonomous Decision Making**: The agent analyzes your spending patterns and makes intelligent suggestions without you asking
-- **Contextual Awareness**: Remembers your entire conversation history and spending patterns to provide relevant insights
-- **Proactive Interventions**: Detects when you're overspending or forgetting to log expenses and reaches out
-- **Multi-Step Reasoning**: Handles complex queries like "how much did I spend on coffee this month compared to last month?" by analyzing multiple data points
-- **Adaptive Learning**: Learns your spending habits and adjusts responses accordingly
-- **Goal-Oriented**: Works towards helping you achieve your financial goals through intelligent guidance
+| Mode | Description |
+|------|-------------|
+| **Savage** (default) 💀 | Brutally honest. Will roast you for that 7th coffee this week. No mercy. |
+| **Supportive** 💪 | Encouraging and gentle. Celebrates your wins. Your cheerleader. |
+| **Neutral** 📊 | Just the facts. Clean, straightforward tracking. |
 
-The agent doesn't just respond. It thinks, analyzes, and acts in your best interest.
+**Curse Mode** 🔥 — Toggle this on if you want Spill to go full unhinged with the language. It matches your energy.
 
-## 🚀 Advanced Features
+---
 
-### Smart Suggestions & Reminders
-- **Time-Based Reminders**: `"you usually log coffee around this time, did you forget?"`
-- **Category Reminders**: Notices when you haven't logged a frequent category
-- **Pattern Callouts**: `"your main character purchase is: coffee. that's your villain origin story fr."`
-- **Weekly Wraps**: `"you're at $102 on coffee this week. caffeine addiction arc going crazy."`
-- **Custom Reminders**: Set one-off reminders for later in the day
+### 🔥 Streaks & Achievements
+Build streaks for staying under budget. Hit milestones. Get celebrated.
 
-### Intelligent Error Handling
-- **Typo Correction**: `"coffe $5"` → Automatically corrects to `"coffee"`
-- **Partial Expenses**: If you forget the amount, it asks: `"how much was that coffee?"`
-- **Context Awareness**: Remembers what you're talking about across messages
-- **Clarifying Questions**: Asks for confirmation on unusual entries like `"$0 on rent"`
-- **Fuzzy Matching**: Handles variations in category names
+- Day 5, 10, 30+ celebrations
+- Achievement unlocks for financial wins
+- `"yo day 10 streak of staying under budget! 🔥"`
 
-### Privacy & Control
-- **Complete Data Isolation**: Each user's data is completely separate and secure
-- **Opt-Out Options**: Control what messages you receive (check-ins, achievements, summaries)
-- **Data Export**: Export your expenses anytime
-- **Two-Step Deletion**: Safe data deletion with confirmation
-- **End-to-End Encryption**: Conversation history encrypted at rest
+---
+
+### 🎪 Spill Wrapped
+Like Spotify Wrapped, but for your spending. Get monthly and annual reports with:
+
+- Your top spending category
+- Total purchases
+- "What could have been" comparisons
+- Savage commentary on your habits
+- **Shareable stats** (if you dare 💀)
+
+---
+
+### 🧠 Actually Intelligent
+This isn't just a chatbot—it's an AI that thinks.
+
+- **Proactive suggestions**: `"you usually log coffee around this time, did you forget?"`
+- **Spending predictions**: `"at this rate you're hitting $2.5k this month and your budget is $2k 👀"`
+- **Pattern recognition**: Detects recurring expenses and suggests automating them
+- **Context memory**: Remembers your whole conversation
+
+---
+
+### ⏰ Smart Reminders
+Never miss a beat:
+
+- Weekly spending summaries delivered automatically
+- Debt reminders when you've forgotten about that IOU
+- Inactive check-ins if you've been quiet for a few days
+- Time-based prompts based on your habits
+
+---
+
+### 🔒 Your Data, Your Control
+- Complete data isolation between users
+- Opt-out of any messages (check-ins, summaries, achievements)
+- Two-step deletion for safety
+
+---
 
 ## 💡 How It Works
 
-### Basic Expense Logging
-```
-You: lunch $15
-Bot: $15 on lunch logged 💀 you've spent $45 on food this week
+1. **Text your expenses** — Just tell Spill what you spent like you're texting a friend
+2. **AI does the heavy lifting** — Understands context, extracts details, categorizes automatically
+3. **Get real-time feedback** — Budget updates, spending insights, personality-driven responses
+4. **Track patterns over time** — See trends, build streaks, hit goals
 
-You: coffee $5.50 starbucks
-Bot: $5.50 at starbucks logged. that's coffee #8 this week bro ☕
+No app. No friction. Just text.
 
-You: uber $22 with tip
-Bot: $22 on transport logged 💀
-```
+---
 
-### Budget Management
-```
-You: budget $500 this month
-Bot: monthly budget set to $500. let's see if you can stick to it 👀
+## 🎯 Perfect For
 
-You: budget $100 for food this month
-Bot: monthly food budget set to $100. tracking that now 🍽️
+- **Busy people** who hate opening apps
+- **Budget-conscious spenders** who want accountability
+- **Friend groups** splitting bills and tracking IOUs
+- **Anyone** who's tried (and abandoned) expense tracking apps before
 
-You: how much left in my food budget?
-Bot: you've spent $85 on food this month. $15 left in your budget. cutting it close 👀
-```
+---
 
-### Spending Queries
-```
-You: how much this week?
-Bot: you've spent $135 this week. breakdown: $85 food, $30 transport, $20 coffee
+## The Spill Difference
 
-You: what did I buy today?
-Bot: today's expenses:
-- $15 lunch
-- $5.50 coffee
-- $22 uber
-total: $42.50
+Most expense trackers feel like homework. Spill feels like texting a friend who actually cares about your financial wellbeing—and isn't afraid to call you out when you're being chaotic.
 
-You: coffee spending this month
-Bot: you dropped $94 on coffee this month. that's a lot of caffeine 💀
-```
+Track your expenses. Build better habits. Get roasted (affectionately).
 
-### Debt & Payment Tracking
-```
-You: i owe john $20
-Bot: logged. you owe john $20 now 👍
+---
 
-You: john paid me back $20
-Bot: updated. john paid you back. balance cleared 💀
+## 💬 See It In Action
 
-You: how much do i owe Kabir?
-Bot: you owe Kabir $40 total
-```
+**Logging an expense:**
+> **You:** coffee $6 starbucks  
+> **Spill:** $6 on coffee at starbucks. that's your 4th one this week bruh 💀 logged.
 
-### OCR Receipt Processing
-```
-You: [sends photo of receipt]
-Bot: extracted from receipt:
-- $15.50 lunch
-- $3.25 coffee
-- $2.00 tip
-logged all items 💀
-```
+**Checking your budget:**
+> **You:** how much have I spent this week?  
+> **Spill:** you've dropped $247 this week. breakdown: $89 food, $72 transport, $52 coffee, $34 random stuff. the coffee is wild ngl 👀
 
-### Advanced Operations
-```
-You: undo
-Bot: aight, i'll pretend that $15 on lunch never happened… this time.
+**Splitting a bill:**
+> **You:** dinner was $120, split between me Kabir and Messi  
+> **Spill:** $40 each. logged your share. Kabir and Messi each owe you $40. i'll remind you if they forget 👊
 
-You: change coffee to $6
-Bot: updated that coffee to $6.00 👍
+---
 
-You: delete all coffee expenses this week
-Bot: yo wait... you want to delete 8 coffee expenses this week? that's permanent. reply 'yes' to confirm
-```
+### 👉 [Try Spill Today](https://spill.today)
 
-## 🎯 Use Cases
-
-- **Personal Finance**: Track daily spending and build better habits
-- **Budgeting**: Set budgets and get real-time alerts
-- **Debt Management**: Track who owes whom and manage IOUs
-- **Expense Reports**: Generate spending summaries for work or personal use
-- **Habit Tracking**: See patterns in your spending and make informed decisions
-- **Receipt Management**: Digitize and categorize paper receipts automatically
-- **Split Bills**: Calculate splits for group expenses instantly
-
-## 🔒 Security & Privacy
-
-- **End-to-End Encryption**: Conversation history encrypted at rest
-- **Data Isolation**: Complete separation between users
-- **No Data Sharing**: Your data stays yours
-- **Secure Infrastructure**: Built on enterprise-grade platforms
-- **Rate Limiting**: Prevents abuse and spam
-- **Two-Factor Deletion**: Extra confirmation required for data deletion
-
-## 🚀 Production Ready
-
-This is a fully functional, production-grade expense tracking system. It handles:
-- High message volumes
-- Concurrent users
-- Error recovery
-- Data integrity
-- Performance optimization
-- Scalable architecture
-
-## 📚 Key Technologies
-
-- **Backend**: Python 3.11+, FastAPI
-- **Database**: PostgreSQL (Supabase)
-- **AI**: Advanced language models for natural language understanding
-- **OCR**: Computer vision for receipt and bill processing
-- **SMS**: Twilio for reliable message delivery
-- **Deployment**: Cloud-ready, scales automatically
-
-## 🤝 Contributing
-
-This is a public repository showcasing an SMS-based AI expense tracker. For questions, issues, or contributions, please open an issue or contact the repository owner.
-
-## 📝 License
-
-See LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-Built with modern AI and cloud technologies to create a seamless, conversational expense tracking experience.
 
 ---
 
